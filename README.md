@@ -1,7 +1,9 @@
 # Social Media Sample Project
 
 ## DEMO
-<img align="left" src="social-media1.gif" />
+<img align="left" src="social-media1.gif" /> <br />
+
+
 ## Database Setup
 
 ```shell
