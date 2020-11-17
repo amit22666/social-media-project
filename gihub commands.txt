@@ -1,0 +1,55 @@
+git checkout -b new_branch
+git add .
+git commit -sm "added new file.js"
+git remote add origin https://github.com/amit22666/social-media-project.git
+git config -l
+git remote set-url origin "https://amit22666@github.com/amit22666/social-media-project.git"
+git push -u origin main
+
+git remote set-url origin "https://github-username@github.com/github-username/github-repository-name.git"
+
+------------------------------------------
+add further files
+git add .
+git commit -sm "added new file.js"
+git branch -M main
+git push -u origin main
+
+------------------------------------------------------
+extra commands
+
+git config --edit --global
+
+git status (only file name)
+git reset --hard HEAD ()
+git diff (extra information)
+red- unstaged
+green - staged
+git log -5 (last five)
+git show commitid
+
+git branch
+git branch branchname (create new branch)
+
+git checkout -b branchname (create and go tho this branch)
+git checkout master (branchname)
+
+git delete -d branch name
+
+git merge master
+
+----------------------------------------------------
+
+…or create a new repository on the command line
+echo "# another-try" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/amit22666/another-try.git
+git push -u origin main
+                
+…or push an existing repository from the command line
+git remote add origin https://github.com/amit22666/another-try.git
+git branch -M main
+git push -u origin main

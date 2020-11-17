@@ -1,0 +1,75 @@
+https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+
+http://localhost:8483/
+GET http://localhost:8483/api/users/1
+POST http://localhost:8483/api/users/
+GET http://localhost:8483/api/posts
+POST http://localhost:8483/api/posts
+
+------------------------------------------
+package.json
+"scripts": {
+    "start": "node server.js"
+  },
+
+npm init
+npm i sequelize mysql2 express
+
+-----------------------------------
+in vs code
+node server.js
+---------------
+
+create database socialmediadb;
+
+create user socialuser identified with mysql_native_password by 'socialpass';
+
+grant all privileges on socialmediadb.*  to socialuser;
+
+flush privileges;
+
+
+-----------------------------
+after creating the table in sql command line
+use cbsocialmediadb;
+show tables;
+describe users;
+describe products;
+
+-------------------------------------------------
+
+Then go to postman
+get req
+
+post req --> body --> x-ww  -> name - kumar --> send
+
+------------------------------------
+we write
+Product.findAll()
+and sequilize runs this query for us  
+SELECT `id`, `name`, `manufacturer`, `price`, `createdAt`, `updatedAt` FROM `products` AS `products`;
+----------------------------------------
+
+${``) create new element
+
+
+--------------------------------------------------
+
+remove slim , intigrigy from sript code.jquery
+
+----------------------------------------------------
+GITHUB
+
+…or create a new repository on the command line
+echo "# social-media-project" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/amit22666/social-media-project.git
+git push -u origin main
+                
+…or push an existing repository from the command line
+git remote add origin https://github.com/amit22666/social-media-project.git
+git branch -M main
+git push -u origin main
