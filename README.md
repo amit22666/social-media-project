@@ -1,7 +1,34 @@
-# Social Media Sample Project
+# Social Media Project
 
-## DEMO
-<img align="left" src="social-media1.gif" /> <br />
+You can post your thoughts anonymously. With the functionalities like add post, add comments, view your posts, and many more.
+
+![GitHub contributors](https://img.shields.io/github/contributors/amit22666/social-media-project?style=flat-square)
+![GitHub followers](https://img.shields.io/github/followers/amit22666?style=social)
+![GitHub forks](https://img.shields.io/github/forks/amit22666/social-media-project?label=Social-media-project&style=social)
+![GitHub all releases](https://img.shields.io/github/downloads/amit22666/social-media-project/total?color=%2300FF00&logo=GitHub&style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/amit22666/social-media-project?style=flat-square)
+![Twitter Follow](https://img.shields.io/twitter/follow/Amitkum35945353?style=social)
+
+
+## Screenshots and Gifs
+<img  src="social-media1.gif" /> 
+<img  src="socialmedia2.png" /> 
+<img  src="socialmedia3.png" /> 
+<img  src="socialmedia4.png" /> 
+<img  src="socialmedia5.png" /> 
+
+## Steps to run
+
+- Clone or download this repository
+- Go to the project root directory and open terminal/cmd
+- Install `npm init` , `npm i sequelize mysql2 express`
+- In package.json do
+            "scripts": {
+                     "start": "node server.js"
+                        },
+
+- In terminal go to server.js directory and run node server.js. 
+- You are good to go :)
 
 
 ## Database Setup
@@ -119,3 +146,13 @@ userId=
 title=
 body=
 ```
+
+## To Do
+
+- [ ] Implement the logic to edit posts and delete posts.
+- [ ] Implement functionalities like Readmore , Like posts.
+- [ ] Style part : Apply basic styling to make the Website look good
+
+##Contributers
+
+**To add more ideas create an issue and a PR with this README updated with your idea**
