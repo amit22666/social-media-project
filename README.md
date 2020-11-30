@@ -1,3 +1,6 @@
+<img  src="social media project logo.gif" />
+
+
 # Social Media Project
 
 You can post your thoughts anonymously. With the functionalities like add post, add comments, view your posts, and many more.
