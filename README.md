@@ -1,4 +1,4 @@
-<img  src="social media project logo.gif" />
+<img  src="social media project logo.png"/>
 
 
 # Social Media Project
